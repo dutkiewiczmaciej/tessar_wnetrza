@@ -72,8 +72,8 @@ body {
   text-align: justify;
   font-weight: 400;
   margin: 5rem 5rem 5rem 5rem;
-  -webkit-hyphens: none;
-  hyphens: none;
+  -webkit-hyphens: manual;
+  hyphens: manual;
   /*
     @media only screen and (max-width: $bp-large) {
         text-align: justify;
