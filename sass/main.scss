@@ -71,7 +71,8 @@ body {
 .logo-main {
     display: flex;
     justify-content: space-around;
-    filter: invert(7%) sepia(7%) saturate(3094%) hue-rotate(169deg) brightness(100%) contrast(92%);
+    -webkit-filter: invert(22%) sepia(39%) saturate(397%) hue-rotate(168deg) brightness(96%) contrast(98%);
+    filter: invert(22%) sepia(39%) saturate(397%) hue-rotate(168deg) brightness(96%) contrast(98%);
 }
 
 .logo-main-img {
