@@ -54,8 +54,8 @@ body {
   filter: invert(7%) sepia(7%) saturate(3094%) hue-rotate(169deg) brightness(100%) contrast(92%); }
 
 .logo-main-img {
-  height: 20rem;
-  margin-top: 5rem; }
+  height: 17rem;
+  margin-top: 3rem; }
   @media only screen and (max-width: 56.25em) {
     .logo-main-img {
       height: 10rem; } }
@@ -68,12 +68,12 @@ body {
       width: 40vw; } }
 
 .text-main {
-  font-size: 2.9rem;
+  font-size: 2.6rem;
   text-align: justify;
   font-weight: 400;
-  margin: 5rem 5rem 8rem 5rem;
-  -webkit-hyphens: auto;
-  hyphens: auto;
+  margin: 5rem 5rem 5rem 5rem;
+  -webkit-hyphens: none;
+  hyphens: none;
   /*
     @media only screen and (max-width: $bp-large) {
         text-align: justify;
@@ -81,7 +81,7 @@ body {
     */ }
 
 .text-secondary {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   text-align: center;
   margin: 5rem 5rem 0 5rem; }
   .text-secondary::before {
@@ -98,7 +98,7 @@ body {
 .text-tertiary {
   display: flex;
   justify-content: center;
-  font-size: 2.6rem;
+  font-size: 2.3rem;
   font-weight: 700; }
   .text-tertiary--1 {
     margin-right: 15rem;
@@ -126,7 +126,7 @@ body {
   justify-content: center; }
 
 .header__icon {
-  margin: 10rem 0 10rem 0;
+  margin: 4rem 0 4rem 0;
   height: 5rem;
   fill: #2c3e50;
   transition: transform .3s ease-in;
