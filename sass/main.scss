@@ -111,8 +111,12 @@ h3 {
 
 .text-main {
     font-size: 2.9rem;
-    text-align: justify;
+    text-align: center;
     margin: 5rem 5rem 0 5rem;
+
+    @media only screen and (max-width: $bp-large) {
+        text-align: justify;
+    }
     
 }
 
