@@ -129,8 +129,7 @@ body {
         padding: 1rem;
         text-decoration: none;
         color: inherit;
-        &:hover,
-        &:active {
+        &:hover {
         background-color: $color-primary;
         color: $color-primary-white;
         }
@@ -140,8 +139,7 @@ body {
         text-decoration: none;
         color: inherit;
 
-        &:hover,
-        &:active {
+        &:hover {
         background-color: $color-primary;
         color: $color-primary-white;
         }
