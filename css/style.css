@@ -51,7 +51,7 @@ body {
 .logo-main {
   display: flex;
   justify-content: space-around;
-  filter: invert(19%) sepia(46%) saturate(450%) hue-rotate(168deg) brightness(93%) contrast(87%); }
+  filter: invert(7%) sepia(7%) saturate(3094%) hue-rotate(169deg) brightness(100%) contrast(92%); }
 
 .logo-main-img {
   height: 30rem;
@@ -63,6 +63,9 @@ body {
 .main-text {
   width: 85vw;
   margin: 0 auto 0 auto; }
+  @media only screen and (min-width: 65.625em) {
+    .main-text {
+      width: 40vw; } }
 
 .text-main {
   font-size: 2.9rem;
