@@ -27,7 +27,19 @@ html {
   font-size: 62.5%; }
   @media only screen and (max-width: 65.625em) {
     html {
-      font-size: 50%; } }
+      font-size: 56%; } }
+  @media only screen and (max-width: 43.75em) {
+    html {
+      font-size: 49%; } }
+  @media only screen and (max-width: 37.5em) {
+    html {
+      font-size: 45%; } }
+  @media only screen and (max-width: 31.25em) {
+    html {
+      font-size: 40%; } }
+  @media only screen and (max-width: 25.0625em) {
+    html {
+      font-size: 35%; } }
 
 body {
   font-family: Helvetica;
@@ -36,23 +48,30 @@ body {
   font-weight: 300;
   line-height: 1.6; }
 
+/*
 h1 {
-  font-size: 4rem;
-  color: #fffa65;
-  letter-spacing: .1rem;
-  font-weight: 300; }
+    font-size: 4rem;
+    color: $color-secondary;
+    letter-spacing: .1rem;
+    font-weight: 300;
+}
 
 h2 {
-  font-size: 3.5rem;
-  color: #faf9f9; }
-  @media only screen and (max-width: 31.25em) {
-    h2 {
-      font-size: 2.5rem; } }
+    font-size: 3.5rem;
+    color: $color-grey-light-1;
+
+    @media only screen and (max-width: $bp-smallest-small) {
+        font-size: 2.5rem;
+    }
+}
 
 h3 {
-  font-size: 3rem;
-  color: #fffa65; }
+    font-size: 3rem;
 
+    color: $color-secondary;
+}
+
+*/
 .logo-main {
   display: flex;
   justify-content: space-around; }
@@ -63,20 +82,19 @@ h3 {
 
 .text-main {
   font-size: 2.9rem;
-  text-align: center;
-  margin: 5rem 40rem 0 40rem; }
+  text-align: justify;
+  margin: 5rem 5rem 0 5rem; }
 
 .text-secondary {
   font-size: 2.4rem;
   text-align: center;
-  margin: 5rem 40rem 0 40rem; }
+  margin: 5rem 5rem 0 5rem; }
   .text-secondary::before {
     content: "";
     height: 1px;
-    margin-bottom: 5rem;
     width: 40rem;
-    display: flex;
-    justify-content: space-around;
+    display: block;
+    margin: 0 auto 5rem auto;
     background-color: currentColor; }
 
 .icons {
