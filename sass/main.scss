@@ -16,7 +16,7 @@ Grey dark 3: #999
 
 */
 
-$color-primary: #2c3e50;
+$color-primary: #202d3a;
 $color-primary-white: #ecf0f1;
 
 $font-primary: 'Montserrat', sans-serif;
@@ -71,9 +71,8 @@ body {
 .logo-main {
     display: flex;
     justify-content: space-around;
-    -webkit-filter: invert(22%) sepia(39%) saturate(397%) hue-rotate(168deg) brightness(96%) contrast(98%);
-    filter: invert(22%) sepia(39%) saturate(397%) hue-rotate(168deg) brightness(96%) contrast(98%);
-}
+    -webkit-filter: invert(4%) sepia(6%) saturate(2578%) hue-rotate(169deg) brightness(94%) contrast(98%);
+    filter: invert(4%) sepia(6%) saturate(2578%) hue-rotate(169deg) brightness(94%) contrast(98%);
 
 .logo-main-img {
     height: 17rem;
