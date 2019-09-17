@@ -24,7 +24,7 @@ $color-grey-light-1: #faf9f9;
 $color-grey-light-2: #f4f2f2;
 $color-grey-light-3: #f0eeee;
 $color-grey-light-4: #ccc;
-$font-primary: Helvetica;
+$font-primary: 'Montserrat', sans-serif;
 
 // RESPONSIVE BREAKPOINTS 
 $bp-largest: 65.625em; //1050px
@@ -107,17 +107,21 @@ h3 {
 .logo-main-img {
     height: 30rem;
     margin-top: 5rem;
+
+    @media only screen and (max-width: $bp-large) {
+        height: 20rem;
+    }
 }
 
 .text-main {
     font-size: 2.9rem;
     text-align: center;
     margin: 5rem 5rem 0 5rem;
-
+/*
     @media only screen and (max-width: $bp-large) {
         text-align: justify;
     }
-    
+    */
 }
 
 .text-secondary {
@@ -147,6 +151,8 @@ h3 {
     transition: transform .3s ease-in;
     cursor: pointer;
     display: block;
+
+    
     
     
     &:hover,
