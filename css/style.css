@@ -69,6 +69,7 @@ body {
   text-align: justify;
   font-weight: 400;
   margin: 5rem 5rem 8rem 5rem;
+  hyphens: auto;
   /*
     @media only screen and (max-width: $bp-large) {
         text-align: justify;
@@ -124,3 +125,8 @@ body {
   display: block; }
   .header__icon:hover, .header__icon:active {
     transform: scale(1.4); }
+
+.footer-main {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-bottom: 1rem; }
