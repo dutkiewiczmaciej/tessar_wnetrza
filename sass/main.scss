@@ -19,11 +19,6 @@ Grey dark 3: #999
 $color-primary: #2c3e50;
 $color-primary-white: #ecf0f1;
 
-$color-secondary: #fffa65;
-$color-grey-light-1: #faf9f9;
-$color-grey-light-2: #f4f2f2;
-$color-grey-light-3: #f0eeee;
-$color-grey-light-4: #ccc;
 $font-primary: 'Montserrat', sans-serif;
 
 // RESPONSIVE BREAKPOINTS 
@@ -73,35 +68,10 @@ body {
     line-height: 1.6;
 }
 
-
-/*
-h1 {
-    font-size: 4rem;
-    color: $color-secondary;
-    letter-spacing: .1rem;
-    font-weight: 300;
-}
-
-h2 {
-    font-size: 3.5rem;
-    color: $color-grey-light-1;
-
-    @media only screen and (max-width: $bp-smallest-small) {
-        font-size: 2.5rem;
-    }
-}
-
-h3 {
-    font-size: 3rem;
-
-    color: $color-secondary;
-}
-
-*/
 .logo-main {
     display: flex;
     justify-content: space-around;
-
+    filter: invert(19%) sepia(46%) saturate(450%) hue-rotate(168deg) brightness(93%) contrast(87%);
 }
 
 .logo-main-img {
@@ -113,11 +83,15 @@ h3 {
     }
 }
 
+.main-text {
+    width: 70vw;
+    margin: 0 auto 0 auto;
+}
 .text-main {
     font-size: 2.9rem;
-    text-align: center;
+    text-align: justify;
     font-weight: 400;
-    margin: 5rem 5rem 5rem 5rem;
+    margin: 5rem 5rem 8rem 5rem;
 /*
     @media only screen and (max-width: $bp-large) {
         text-align: justify;
@@ -144,6 +118,35 @@ h3 {
     }
 }
 
+.text-tertiary {
+    display: flex;
+    justify-content: center;
+    font-size: 2.6rem;
+    font-weight: 700;
+    &--1 {
+        margin-right: 15rem;
+        padding: 1rem;
+        text-decoration: none;
+        color: inherit;
+        &:hover,
+        &:active {
+        background-color: $color-primary;
+        color: $color-primary-white;
+        }
+    }
+    &--2 {
+        padding: 1rem;
+        text-decoration: none;
+        color: inherit;
+        
+        &:hover,
+        &:active {
+        background-color: $color-primary;
+        color: $color-primary-white;
+        }
+    
+    }
+}
 .icons {
     display: flex;
     justify-content: center;
