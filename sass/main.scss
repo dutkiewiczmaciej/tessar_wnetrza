@@ -175,10 +175,10 @@ body {
     display: block;
 
     
-    @media (pointer: fine) {
+    @media only screen and (min-width: $bp-medium) {
         &:hover,
-        &:active {
-        transform: scale(1.4);
+        &:link {
+            transform: scale(1.4);
     }
     }
     
